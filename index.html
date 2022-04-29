@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yasin Karaçam</title>
+    <meta name="keywords" content="Python,Java,JavaScript" />
+    <meta
+      name="description"
+      content="Mustafa Murat Coşkun | Programlama Eğitimleri"
+    />
+    <!-- Fonts Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Yasin Karaçam</h1>
+
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img
+        src="images/yasin2.jpg"
+        alt="Yasin Karaçam"
+      />
+
+      <div class="name text-center">
+        <h2 class="heading-big">Yasin Karaçam</h2>
+        <p>Yönetim Bilişim Sistemleri |Management İnformation System</p>
+      </div>
+
+      <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Bilgisayar Bilgisi</h3>
+          <p>
+            MS Office, SQL, OOP, Kurumsal Kaynak Planlama(ERP), Power BI C#, .Net, HTML5 , CSS , WordPress, SEO, E-ticaret
+
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Online İçerikler</h3>
+          <p>
+            Bilgi Teknolojilerine Giriş,C# Console,MVC 5 3 Panelli Kütüphane Yönetim Sistemi,HTML CSS
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Üniversite</h3>
+          <p>
+           Düzce Üniversitesi| Anadolu Üniversitesi
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h3 class="text-center heading-medium">Kurslar</h3>
+
+      <div class="container">
+        <div class="courses">
+          <!-- Course 1 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/udemylogo.png" alt="Python" />
+              <span>%90 İndirim</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                MVC3 Panelli Kütüphane Yönetim Sistemi             </div>
+              <div class="description">
+                MVC3 Panelli Kütüphane Yönetim Sistemi
+              </div>
+              <div class="instructor">Murat Yücedağ</div>
+              <div class="rating">4.6 | (19990 Oylama)</div>
+            </div>
+          </div>
+          <!-- Course 2 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/üsküdar.png" alt="KKP" />
+              <span>%90 İndirim</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+               Kurumsal Kaynak Planlama ve Veri Analizi
+              </div>
+              <div class="description">
+                Kurumsal Kaynak Planlama ve Veri Analizi
+              </div>
+              <div class="instructor">Üsküdar Üniversitesi</div>
+              <div class="rating">4.6 | (7000 Oylama)</div>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/microsoft.png" alt="microsoft" />
+              <span>%90 İndirim</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                Microsoft Certified:Azure Developer Associte
+              </div>
+              <div class="description">
+                Microsoft Certified:Azure Developer Associte
+              </div>
+              <div class="instructor">Microsoft</div>
+              <div class="rating">4.7 | (2000 Oylama)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Mesajınız..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+        <section id="İletişim" class="bg-dark-blue">
+            <i class="fa fa-phone-alt"></i>
+            <h3>Telefon</h3>
+            <p>
+                05312280115
+            </p>
+          </article>
+
+        </section>
+
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/yasin-karaçam/"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/yasinknokta11"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/yasink.11"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
